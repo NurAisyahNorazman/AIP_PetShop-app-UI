@@ -1,0 +1,19 @@
+<mat-dialog-content class="mat-typography">
+    <h3 class="form-text-title">Add New Owner</h3>
+    <div class="container">
+      <form class="ownerForm" [formGroup]="ownerForm" (ngSubmit)="submitOwnerForm()" novalidate>
+        <div class="form-group">
+          <input type="text" placeholder="First Name" class="form-control" formControlName="firstName" required autofocus/>
+        </div>
+        <br>
+        <div class="form-group">
+          <input type="text" placeholder="Last Name" class="form-control" formControlName="lastName" required autofocus/>
+        </div>
+        <br>
+        <button type="submit" class="btn btn-primary" mat-raised-button color="accent" >Submit</button>
+      </form>
+      <mat-dialog-actions align="center">
+        <button mat-raised-button color="warn" mat-dialog-close>Cancel</button>
+      </mat-dialog-actions>
+    </div>
+  </mat-dialog-content>

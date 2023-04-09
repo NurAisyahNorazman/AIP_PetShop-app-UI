@@ -1,0 +1,32 @@
+.main-body{
+    padding-top: 10px;
+    text-align: center;
+    justify-content: center;
+}
+
+.list-container {
+    padding-top: 20px;
+    width: 70%;
+    position: absolute;
+    margin: auto;
+    right: 0;
+    left: 0;
+}
+
+th {
+    text-align: center;
+}
+
+td {
+    color: black;
+    background-color: rgb(241, 202, 252);
+    text-align: center;
+}
+
+.edit-btn {
+    margin-right: 10px;
+}
+
+.del-btn {
+    margin-left: 10px;
+}

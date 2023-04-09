@@ -1,0 +1,10 @@
+<mat-dialog-content class="mat-typography">
+    <h3 class="text-title">Delete Pet</h3>
+    <p>Are you sure you want to delete this Pet?</p>
+    <div class="container">
+      <mat-dialog-actions align="center">
+        <button mat-stroked-button class="btn-confirm" (click)="deleteOwners(owners.id!)" mat-dialog-close>confirm</button>
+        <button mat-stroked-button class="btn-cancel" mat-dialog-close>Cancel</button>
+      </mat-dialog-actions>
+    </div>
+</mat-dialog-content>

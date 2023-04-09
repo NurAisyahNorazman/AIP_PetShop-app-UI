@@ -1,0 +1,14 @@
+.mat-typography{
+    text-align: center;
+}
+
+.text-title{
+    background-color: rgb(255, 0, 0);
+    color: white;
+    padding: 10px;
+    font-weight: bold;
+}
+
+p{
+    color:white;
+}

@@ -1,0 +1,10 @@
+.mat-typography{
+    text-align: center;
+}
+
+.form-text-title{
+    background-color: rgb(229, 167, 255);
+    color: black;
+    padding: 10px;
+    font-weight: bold;
+}

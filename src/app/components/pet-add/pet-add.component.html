@@ -1,0 +1,21 @@
+<mat-dialog-content class="mat-typography">
+    <h3 class="form-text-title">Add New Pet</h3>
+    <div class="container">
+        <form class="petForm" [formGroup]="petForm" (ngSubmit)="submitPetForm()" novalidate>
+            <div class="form-group">
+                <input type="text" placeholder="Pet name" class="form-control" formControlName="name" required
+                    autofocus />
+            </div>
+            <br>
+            <div class="form-group">
+                <input type="text" placeholder="Breed" class="form-control" formControlName="breed" required
+                    autofocus />
+            </div>
+            <br>
+            <button type="submit" class="btn btn-primary" mat-raised-button color="accent">Submit</button>
+        </form>
+        <mat-dialog-actions align="center">
+            <button mat-raised-button color="warn" mat-dialog-close>Cancel</button>
+        </mat-dialog-actions>
+    </div>
+</mat-dialog-content>
